@@ -146,3 +146,25 @@ def SetCurrentLevel(CurrentLevel: int, x: list, CurrentLevelXmax: float, Current
     
 
     return (CurrentLevel, Reg)
+
+
+def add(x: float, y:float) -> float:
+
+    return x + y
+
+if __name__ == "__main__":
+    c = add(1, 2)
+    try: 
+        assert add(1, 2) == 3
+        assert add(1, 2) == 3
+
+        print("*"*50)
+        print("File is Good")
+        print("*"*50)
+    except AssertionError:
+        print("*"*50)
+        print("AssertionError")
+        print("*"*50)
+
+    pass
+

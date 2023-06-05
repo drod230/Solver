@@ -1,3 +1,1 @@
-from HelperFuncs import InterpolateArray
-
-InterpolateArray()
+from HelperFuncs import SetCurrentLevel
